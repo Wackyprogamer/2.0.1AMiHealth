@@ -1,1 +1,1 @@
-# 2.0.1AMiHealth
+# 2.0.1AMiHealth -- This is a repository containing a mock up design of a web page onto my local machine. Showcases practices of HMTL & CSS
