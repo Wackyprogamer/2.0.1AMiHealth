@@ -18,7 +18,7 @@ body {
 
         background-color: white;
 
-        padding: 20px 20px 40px 20px;
+        padding: 20px 20px 60px 20px;
 
 }
 .logo {
@@ -26,6 +26,7 @@ body {
     float: left;
     width: auto;
     padding-left: 65px;
+    font-weight: bold;
 }
 
 .links {
@@ -65,5 +66,99 @@ body {
     background-color: lightgrey;
 }
 
+.description {
 
+    background-color: lightgray;
+
+    display: flex;
+
+
+    position: absolute;
+    
+}
+
+.description h1 {
+
+    font-weight: bold;
+
+}
+
+.description button {
+
+    border: none; 
+    
+    background-color: lightgray;
+    
+
+}
+
+.description button a {
+
+
+    text-decoration: none;
+
+    color: inherit;
+
+}
+
+
+
+
+.quinoa {
+
+    display: flex;
+    
+}
+
+
+.quinoaImage {
+
+    object-fit: contain;
+    width: 20%;
+
+}
+
+.qtext {
+
+    display: flex;
+
+    flex-direction: column;
+
+    margin-top: 80%;
+
+}
+
+.fresh {
+
+background-color: white;
+
+
+
+}
+
+.breakfast {
+
+background-color: limegreen;
+
+
+}
+
+.pasta {
+
+
+    display: flex;
+
+}
+
+.pastaSaladImage{
+
+    object-fit: cover;
+
+}
+
+.shrimpImage {
+
+object-fit: cover;
+
+}
 
