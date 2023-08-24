@@ -140,6 +140,10 @@ bottom: 0;
 
 right: 0;
 
+background-color: white;
+
+padding: 0 20px;
+
 }
 
 .breakfast {
@@ -149,6 +153,13 @@ position: absolute;
 bottom: 1;
 
 right: 0;
+
+background-color:#8DC728;
+
+padding-left: 80px;
+
+padding-right: 20px;
+
 
 
 }
@@ -187,6 +198,10 @@ bottom: 0;
 
 right: 0;
 
+background-color: white;
+
+padding: 0 20px;
+
 }
 
 .lunch {
@@ -196,6 +211,13 @@ position: absolute;
 bottom: 1;
 
 right: 0;
+
+background-color: #8DC728;
+
+padding-left: 80px;
+
+padding-right: 20px;
+
 
 
 }
@@ -234,6 +256,10 @@ bottom: 0;
 
 right: 0;
 
+background-color: white;
+
+padding: 0 20px;
+
 }
 
 .dinner {
@@ -243,6 +269,12 @@ position: absolute;
 bottom: 1;
 
 right: 0;
+
+background-color: #8DC728;
+
+padding-left: 80px;
+
+padding-right: 20px;
 
 
 }
