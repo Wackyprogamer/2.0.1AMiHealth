@@ -1,6 +1,6 @@
 body {
 
-    background-color: white;
+    background-color: lightgray;
 
     width: 100%;
 
@@ -64,6 +64,8 @@ body {
     width: auto;
 
     background-color: lightgrey;
+
+    display: flex;
 }
 
 .description {
@@ -72,93 +74,178 @@ body {
 
     display: flex;
 
+    flex-direction: column;
 
-    position: absolute;
+    width: 425px;
     
+    padding: 100px 100px;
+
+
 }
 
 .description h1 {
 
     font-weight: bold;
+    font-size: 80px;
+    margin: 0;
 
 }
 
-.description button {
+.description p {
 
-    border: none; 
-    
-    background-color: lightgray;
-    
+    font-size: 35px;
 
 }
 
-.description button a {
+.description a {
 
 
     text-decoration: none;
+
+    font-weight: bold;
+
+    font-size: 29px;
 
     color: inherit;
 
 }
 
-
-
-
 .quinoa {
 
-    display: flex;
-    
+    background-image: url("./images/apple-breakfast-quinoa-7.jpg");
+
+    background-size: cover;
+
+    margin-top: 100px;
+
+    margin-bottom: 40px;
+
+    margin-left: 40px;
+
+    height: 600px;
+
+    width: 400px;
+
+    display: flexbox;
+
+    position: relative;
 }
 
-
-.quinoaImage {
-
-    object-fit: contain;
-    width: 20%;
-
-}
-
-.qtext {
-
-    display: flex;
-
-    flex-direction: column;
-
-    margin-top: 80%;
-
-}
 
 .fresh {
 
-background-color: white;
+position: absolute;
 
+bottom: 0;
 
+right: 0;
 
 }
 
 .breakfast {
 
-background-color: limegreen;
+position: absolute;
+
+bottom: 1;
+
+right: 0;
 
 
 }
+
+
 
 .pasta {
 
+    background-image: url("./images/pasta-salad-recipe-for-lunch.jpg");
 
-    display: flex;
+    background-size: cover;
+
+    display: flexbox;
+
+    margin-top: 100px;
+
+    margin-bottom: 40px;
+
+    margin-left: 20px;
+
+    height: 600px;
+
+    width: 400px;
+
+    position: relative;
+    
+
 
 }
 
-.pastaSaladImage{
+.sweet {
 
-    object-fit: cover;
+position: absolute;
+
+bottom: 0;
+
+right: 0;
+
+}
+
+.lunch {
+
+position: absolute;
+
+bottom: 1;
+
+right: 0;
+
 
 }
 
-.shrimpImage {
 
-object-fit: cover;
+.shrimp {
+
+    background-image: url("./images/Screenshot_208.jpg");
+
+    background-size: cover;
+
+    display: flexbox;
+
+    position: relative;
+
+    margin-top: 100px;
+
+    margin-bottom: 40px;
+
+    margin-left: 20px;
+
+    margin-right: 60px;
+
+    height: 600px;
+
+    width: 400px;
 
 }
+
+
+.delicious {
+
+position: absolute;
+
+bottom: 0;
+
+right: 0;
+
+}
+
+.dinner {
+
+position: absolute;
+
+bottom: 1;
+
+right: 0;
+
+
+}
+
+
 
