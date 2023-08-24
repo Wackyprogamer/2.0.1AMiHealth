@@ -126,9 +126,10 @@ body {
 
     width: 400px;
 
-    display: flexbox;
+    display: flex;
 
     position: relative;
+    
 }
 
 
@@ -140,31 +141,31 @@ bottom: 0;
 
 right: 0;
 
-background-color: white;
-
-padding: 0 20px;
+flex-direction: column;
 
 }
 
-.breakfast {
+.ftext {
 
-position: absolute;
+    background-color: white;
 
-bottom: 1;
+    padding: 20px 30px;
 
-right: 0;
+    margin: 0;
 
-background-color:#8DC728;
-
-padding-left: 80px;
-
-padding-right: 20px;
-
-
-
+    text-align: end;
 }
 
+.btext {
 
+    background-color: #8DC728;
+
+    padding: 20px 30px;
+
+    margin: 0;
+
+    text-align: end;
+}
 
 .pasta {
 
@@ -192,36 +193,39 @@ padding-right: 20px;
 
 .sweet {
 
-position: absolute;
+    position: absolute;
 
-bottom: 0;
+    bottom: 0;
 
-right: 0;
+    right: 0;
 
-background-color: white;
-
-padding: 0 20px;
+    flex-direction: column;
 
 }
 
-.lunch {
+.stext {
 
-position: absolute;
+    background-color: white;
 
-bottom: 1;
+    padding: 20px 40px;
 
-right: 0;
+    margin: 0;
 
-background-color: #8DC728;
-
-padding-left: 80px;
-
-padding-right: 20px;
-
+    text-align: end;
 
 
 }
 
+.ltext {
+
+    background-color: #8DC728;
+
+    padding: 20px 50px;
+
+    margin: 0;
+
+    text-align: end;
+}
 
 .shrimp {
 
@@ -247,35 +251,39 @@ padding-right: 20px;
 
 }
 
-
 .delicious {
 
-position: absolute;
+    position: absolute;
 
-bottom: 0;
+    bottom: 0;
 
-right: 0;
+    right: 0;
 
-background-color: white;
-
-padding: 0 20px;
+    flex-direction: column;
 
 }
 
-.dinner {
+.dtext {
 
-position: absolute;
+    background-color: white;
 
-bottom: 1;
+    padding: 20px 40px;
 
-right: 0;
+    margin: 0;
 
-background-color: #8DC728;
+    text-align: end;
 
-padding-left: 80px;
+}
 
-padding-right: 20px;
+.dntext {
 
+    background-color: #8DC728;
+
+    padding: 20px 50px;
+
+    margin: 0;
+
+    text-align: end;
 
 }
 
