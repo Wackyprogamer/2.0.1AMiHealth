@@ -20,6 +20,7 @@ body {
         background-color: white;
 
         padding: 20px 20px 60px 20px;
+        
 
 }
 .logo {
@@ -62,7 +63,7 @@ body {
 
 .main {
 
-    width: 100%;
+    width: auto;
 
     height: 100%;
 
@@ -84,7 +85,7 @@ body {
 
     width: 100%;
 
-    height: 100%;
+    height: 91%;
 
     object-fit: cover;
 
@@ -142,8 +143,6 @@ body {
 
     margin-bottom: 40px;
 
-    margin-left: 20px;
-
     height: 600px;
 
     width: 400px;
@@ -169,15 +168,23 @@ flex-direction: column;
 
 }
 
+.holdf {
+
+    margin-left: 40%;
+
+}
+
 .ftext {
 
     background-color: white;
 
-    padding: 20px 30px;
+    width: 100%;
 
     margin: 0;
 
-    text-align: end;
+    text-align: center;
+
+    padding: 20px 0;
 }
 
 .btext {
@@ -188,7 +195,6 @@ flex-direction: column;
 
     margin: 0;
 
-    text-align: end;
 }
 
 .pasta {
@@ -215,6 +221,8 @@ flex-direction: column;
 
 }
 
+
+
 .sweet {
 
     position: absolute;
@@ -227,15 +235,23 @@ flex-direction: column;
 
 }
 
+.holds {
+
+    margin-left: 40%;
+
+}
+
 .stext {
 
     background-color: white;
 
-    padding: 20px 40px;
+    width: 100%;
 
     margin: 0;
 
-    text-align: end;
+    text-align: center;
+
+    padding: 20px 0;
 
 
 }
@@ -244,11 +260,9 @@ flex-direction: column;
 
     background-color: #8DC728;
 
-    padding: 20px 50px;
+    padding: 20px 70px;
 
     margin: 0;
-
-    text-align: end;
 }
 
 .shrimp {
@@ -267,7 +281,7 @@ flex-direction: column;
 
     margin-left: 20px;
 
-    margin-right: 25px;
+    margin-right: 45px;
 
     height: 600px;
 
@@ -289,15 +303,23 @@ flex-direction: column;
 
 }
 
+.holdD {
+
+    margin-left: 40%;
+
+}
+
 .dtext {
 
-    background-color: white;
+   background-color: white;
 
-    padding: 20px 40px;
+    width: 100%;
 
     margin: 0;
 
-    text-align: end;
+    text-align: center;
+
+    padding: 20px 0;
 
 }
 
@@ -305,11 +327,9 @@ flex-direction: column;
 
     background-color: #8DC728;
 
-    padding: 20px 50px;
+    padding: 20px 70px;
 
     margin: 0;
-
-    text-align: end;
 
 }
 
