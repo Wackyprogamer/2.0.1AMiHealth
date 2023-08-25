@@ -10,9 +10,10 @@ body {
 
     height: auto;
 
-    display: flexbox;
+    display: flex;
 
 }
+
 
 .nav {
 
@@ -34,7 +35,7 @@ body {
     float: right;
     width: auto;
     font-size: 25px;
-    padding-right: 30px;
+    padding-right: 20px;
     padding-top: 5px;
 }
 
@@ -61,16 +62,37 @@ body {
 
 .main {
 
-    width: auto;
+    width: 100%;
+
+    height: 100%;
 
     background-color: lightgrey;
 
     display: flex;
+
+    background-size: cover;
+
 }
 
-.description {
+.main img {
 
-    background-color: lightgray;
+    position: absolute;
+
+    z-index: 1;
+
+    opacity: 50%;
+
+    width: 100%;
+
+    height: 100%;
+
+    object-fit: cover;
+
+}
+
+
+
+.description {
 
     display: flex;
 
@@ -80,7 +102,7 @@ body {
     
     padding: 100px 100px;
 
-
+    z-index: 1;
 }
 
 .description h1 {
@@ -120,7 +142,7 @@ body {
 
     margin-bottom: 40px;
 
-    margin-left: 40px;
+    margin-left: 20px;
 
     height: 600px;
 
@@ -129,6 +151,8 @@ body {
     display: flex;
 
     position: relative;
+
+    z-index: 1;
     
 }
 
@@ -160,7 +184,7 @@ flex-direction: column;
 
     background-color: #8DC728;
 
-    padding: 20px 30px;
+    padding: 20px 40px;
 
     margin: 0;
 
@@ -173,7 +197,7 @@ flex-direction: column;
 
     background-size: cover;
 
-    display: flexbox;
+    display: flex;
 
     margin-top: 100px;
 
@@ -187,7 +211,7 @@ flex-direction: column;
 
     position: relative;
     
-
+    z-index: 1;
 
 }
 
@@ -233,7 +257,7 @@ flex-direction: column;
 
     background-size: cover;
 
-    display: flexbox;
+    display: flex;
 
     position: relative;
 
@@ -243,11 +267,13 @@ flex-direction: column;
 
     margin-left: 20px;
 
-    margin-right: 60px;
+    margin-right: 25px;
 
     height: 600px;
 
     width: 400px;
+
+    z-index: 1;
 
 }
 
