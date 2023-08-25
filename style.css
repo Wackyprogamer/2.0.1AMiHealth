@@ -20,6 +20,8 @@ body {
         background-color: white;
 
         padding: 20px 20px 60px 20px;
+
+        width: auto;
         
 
 }
@@ -29,6 +31,7 @@ body {
     width: auto;
     padding-left: 65px;
     font-weight: bold;
+    font-family: 'Bebas Neue', sans-serif;
 }
 
 .links {
@@ -38,6 +41,7 @@ body {
     font-size: 25px;
     padding-right: 20px;
     padding-top: 5px;
+    font-family: 'Bebas Neue', sans-serif;
 }
 
 .links a {
@@ -50,14 +54,14 @@ body {
 
 .MI {
 
-    color: red;
+    color: #CE2021;
     font-size: 40px;
 
 }
 
 .Health {
 
-    color: green;
+    color: #8DC728;
     font-size: 40px;
 }
 
@@ -104,6 +108,8 @@ body {
     padding: 100px 100px;
 
     z-index: 1;
+
+    
 }
 
 .description h1 {
@@ -111,6 +117,7 @@ body {
     font-weight: bold;
     font-size: 80px;
     margin: 0;
+    font-family: 'Varela Round', sans-serif;
 
 }
 
@@ -127,9 +134,11 @@ body {
 
     font-weight: bold;
 
-    font-size: 29px;
+    font-size: 28px;
 
     color: inherit;
+
+    font-family: 'Varela Round', sans-serif;
 
 }
 
@@ -154,6 +163,8 @@ body {
     z-index: 1;
     
 }
+
+
 
 
 .fresh {
@@ -185,6 +196,8 @@ flex-direction: column;
     text-align: center;
 
     padding: 20px 0;
+
+    font-family: 'Varela Round', sans-serif;
 }
 
 .btext {
@@ -194,6 +207,8 @@ flex-direction: column;
     padding: 20px 40px;
 
     margin: 0;
+
+    font-family: 'Varela Round', sans-serif;
 
 }
 
@@ -253,6 +268,7 @@ flex-direction: column;
 
     padding: 20px 0;
 
+    font-family: 'Varela Round', sans-serif;
 
 }
 
@@ -263,6 +279,9 @@ flex-direction: column;
     padding: 20px 70px;
 
     margin: 0;
+
+    font-family: 'Varela Round', sans-serif;
+
 }
 
 .shrimp {
@@ -321,6 +340,8 @@ flex-direction: column;
 
     padding: 20px 0;
 
+    font-family: 'Varela Round', sans-serif;
+
 }
 
 .dntext {
@@ -330,6 +351,8 @@ flex-direction: column;
     padding: 20px 70px;
 
     margin: 0;
+
+    font-family: 'Varela Round', sans-serif;
 
 }
 
